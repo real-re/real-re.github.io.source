@@ -1,6 +1,10 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+{{ if isset .Site.Params "favicon" }}
+<link href="{{ .Site.Params.favicon }}" rel="shortcut icon" type="image/x-icon" />
+{{ end }}
+
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/index.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/navbar.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/navbar.css" />

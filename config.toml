@@ -4,11 +4,11 @@ title = "Naruto Senki - V2"
 publishDir = "public"
 
 [params]
+    avatar = "img/avatar.svg"
     mainbg = "img/bg.png"
     name = "Re"
     mainTitle = "Naruto Senki - V2"
     mainText = "Android, Linux, Windows, Mac (In Dev)" # Raspberry Pi (In dev)
-
 [menus]
     [[menu.main]]
         identifier = "projects"
