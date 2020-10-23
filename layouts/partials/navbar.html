@@ -1,11 +1,111 @@
 <nav class="pl-4 md:pl-24">
-  <a href="{{ .Site.BaseURL }}" class="logo">{{ .Site.Title }}</a>
+  <a href="{{ .Site.BaseURL }}" class="logo random">{{ .Site.Title }}</a>
   <ul class="hidden md:flex">
     {{ range .Site.Menus.main }}
-    <li>
-      <a href="{{ .URL }}">{{ .Name }}</a>
-    </li>
+    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
     {{end}}
   </ul>
 </nav>
 <section class="banner"></section>
+
+<script id="rendered-js">
+  let gui, config, colorSwitcher,
+    scene, camera, renderer, light, ocean;
+
+  class Ocean extends THREE.Mesh {
+    constructor(geometry, material, color) {
+      super(geometry, material);
+
+      this.geometry.verticesNeedUpdate = true;
+      this.receiveShadow = true;
+
+      this.setColor(color);
+      this.initWaves();
+    }
+
+    setColor(color) {
+      this.material.color.setHex(color.replace('#', '0x'));
+    }
+
+    initWaves() {
+      for (let v of this.geometry.vertices) {
+        let angle = Math.random() * Math.PI;
+
+        v.x += -1 + Math.random() * 1;
+        v.y += -1 + Math.random() * 1;
+        v.z = Math.sin(angle);
+        v.angle = angle;
+        v.amplitude = .0025 + Math.random() * .0025;
+        v.speed = .016 + Math.random() * .032;
+      }
+    }
+
+    moveWaves() {
+      for (let v of this.geometry.vertices) {
+        v.z += Math.sin(v.angle) * v.amplitude;
+        v.angle += v.speed;
+      }
+      this.geometry.verticesNeedUpdate = true;
+    }
+  }
+
+
+  const render = () => {
+    window.addEventListener('resize', resize, false);
+
+    ocean.moveWaves();
+
+    requestAnimationFrame(render);
+    renderer.render(scene, camera);
+  };
+
+  const resize = () => {
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+  };
+
+  const init = () => {
+    // External libs & utils
+    // gui = new dat.GUI();
+
+    // Ocean config & updatable values
+    config = {
+      color: '#080808',
+      fov: 60,
+      geometry: new THREE.PlaneGeometry(160, 160, 38, 38),
+      material: new THREE.MeshPhongMaterial({
+        shading: THREE.FlatShading
+      })
+    };
+
+    // Scene setup
+    scene = new THREE.Scene();
+    camera = new THREE.PerspectiveCamera(config.fov, window.innerWidth / window.innerHeight, .1, 1000);
+    renderer = new THREE.WebGLRenderer({ antialias: true });
+    light = new THREE.DirectionalLight(0xffffff, .75);
+    ocean = new Ocean(config.geometry, config.material, config.color);
+
+    camera.position.set(0, -25, 20);
+    camera.rotation.set(Math.PI / 8, 0, 0);
+
+    light.position.set(15, -15, 500);
+
+    ocean.rotateZ(-Math.PI / 6);
+
+    // Add the scene to the DOM
+    document.body.appendChild(renderer.domElement);
+
+    // Add objects to the scene
+    scene.add(light, ocean);
+
+    // Add external controls
+    // colorSwitcher = gui.addColor(config, 'color');
+    // colorSwitcher.onChange(() => { ocean.setColor(config.color); });
+
+    resize();
+    render();
+  };
+
+  init();
+</script>

@@ -2,7 +2,7 @@
     title = "Android"
     image = "https://picsum.photos/400/200"
     text = """
-x86 (armeabi-v7a) &
+x86 (armeabi-v7a)
 x64 (arm64-v8a)
     """
 [[list]]
@@ -17,4 +17,3 @@ x64
     text = """
 x32
     """
-

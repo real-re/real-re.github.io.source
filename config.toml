@@ -5,10 +5,10 @@ publishDir = "public"
 
 [params]
     avatar = "img/avatar.svg"
-    mainbg = "img/bg.png"
+    mainbg = "https://picsum.photos/1920/1080"
     name = "Re"
     mainTitle = "Naruto Senki - V2"
-    mainText = "Android, Linux, Windows, Mac (In Dev)" # Raspberry Pi (In dev)
+    mainText = "Android, Linux, Windows" # Mac (In Dev), Raspberry Pi (In dev)
 [menus]
     [[menu.main]]
         identifier = "projects"

@@ -2,7 +2,7 @@ title = "Free & Cross-Platform"
 
 text = """Based on NarutoSenki source code.
 
-- Thanks `Zakume` for released the source code.
+- Thanks `Zakume` for released the source code
 - Thank you so much for everything you have done for naruto fans
 - This game symbolizes to fans eyes the most amazing naruto video game
 """
@@ -11,8 +11,8 @@ text = """Based on NarutoSenki source code.
     #icon = "fab fa-github"
     #url = "https://github.com/reaperofblack"
 [[link]]
-    icon = "fab fa-discord"
-    url = "#"
+    icon = "fab fa-discord fa-2x"
+    url = "https://discord.gg/JGA6P8p"
 [[link]]
-    icon = "fab fa-qq"
-    url = "#"
+    icon = "fab fa-qq fa-2x"
+    url = "https://jq.qq.com/?_wv=1027&k=bofjiSpy"

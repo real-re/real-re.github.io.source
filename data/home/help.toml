@@ -1,0 +1,77 @@
+[[helps]]
+text = """
+## 中文
+游戏场景:
+    - 移动: WSAD 或 方向键
+    - 忍术:
+        - 普通攻击: J
+        - 忍术 1: U
+        - 忍术 2: I
+        - 忍术 3: O
+        - 奥义 1: K
+        - 奥义 2: H
+    - 物品 & 其他:
+        - 拉面: L
+        - 物品 1: 未设定
+        - 物品 2: 未设定
+        - 物品 3: 未设定
+
+装备界面:
+    空格键: 打开装备购买页面
+
+    - 选择: 1-9
+    - 购买: B
+
+全局快捷键:
+    - ESC & ENTER: 关闭当前页面
+
+## ENGLISH
+Game Scene:
+    - Movement: WSAD or Arrow keys
+    - Skills:
+        - Normal Attack: J
+        - Skill 1: U
+        - Skill 2: I
+        - Skill 3: O
+        - Ougi  1: K
+        - Ougi  2: H
+    - Items & Other:
+        - Ramen: L
+        - Item 1: Unknown
+        - Item 2: Unknown
+        - Item 3: Unknown
+
+Gear Panel:
+    SPACE: Open gear panel in game battle
+
+    - Select Gear:  1-9
+    - Purchase:     B
+
+Global:
+    - ESC & ENTER: Close current panel
+
+## 日本語
+バトル:
+    - 動き: WSAD　＆　方向キー
+    - 術:
+        - 攻　撃:　J
+        - 術　１:　U
+        - 術　２:　I
+        - 術　３:　O
+        - 奥義１:　K
+        - 奥義２:　H
+    - アイテム　&　アザー:
+        - ラーメン　:　L
+        - アイテム１:　未設定
+        - アイテム２:　未設定
+        - アイテム３:　未設定
+
+そうびとどうぐ:
+    SPACE:　Open gear panel in game battle
+
+    - 選ぶ:　1-9
+    - かう:　B
+
+コンフィグ:
+    - ESC & ENTER: Close current panel
+"""
