@@ -1,4 +1,4 @@
-baseURL = "game.naruto.re"
+baseURL = ""
 languageCode = "en-us"
 title = "Naruto Senki - V2"
 publishDir = "public"
