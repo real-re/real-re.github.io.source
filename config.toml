@@ -1,0 +1,28 @@
+baseURL = "game.naruto.re"
+languageCode = "en-us"
+title = "Naruto Senki - V2"
+publishDir = "public"
+
+[params]
+    mainbg = "img/bg.png"
+    name = "Re"
+    mainTitle = "Naruto Senki - V2"
+    mainText = "Android, Linux, Windows, Mac (In Dev)" # Raspberry Pi (In dev)
+
+[menus]
+    [[menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "#projects"
+    [[menu.main]]
+        identifier = "plan"
+        name = "Plan"
+        url = "#plan"
+    [[menu.main]]
+        identifier = "changelog"
+        name = "Changelog"
+        url = "#changelog"
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "#about"

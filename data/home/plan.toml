@@ -1,0 +1,10 @@
+[[list]]
+    name = "Multiplayer"
+    icon = "img/online-game.svg"
+    text = """Already in planning
+    """
+[[list]]
+    name = "Donate Me"
+    icon = "img/donate.svg"
+    text = """GIVE A LITTLE, HELP A LOT.
+    """
