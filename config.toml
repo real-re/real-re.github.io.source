@@ -26,3 +26,7 @@ publishDir = "public"
         identifier = "about"
         name = "About"
         url = "#about"
+    [[menu.main]]
+        identifier = ""
+        name = ""
+        url = ""
