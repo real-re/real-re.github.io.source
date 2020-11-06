@@ -1,12 +1,12 @@
 [[list]]
     title = "Android"
-    image = "https://picsum.photos/400/200"
+    image = "img/android.png"
     text = """
 x86 & x64
     """
 [[list]]
     title = "Linux"
-    image = "https://picsum.photos/400/200"
+    image = "img/linux.png"
     text = """
 x64
     """

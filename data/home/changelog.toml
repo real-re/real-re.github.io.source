@@ -1,19 +1,33 @@
 [[list]]
-    title = "Android"
-    image = "https://picsum.photos/400/200"
+    name = "Android"
     text = """
-x86 (armeabi-v7a)
-x64 (arm64-v8a)
+- support x86 & x64
+- upgrade to android 11.0
+- fixed game is not fluent
+- the simple large screen adaptation
+
+Know issues:
+- Sometimes the audio can not play
+(Android underlying `FMQ` errors, I can not fix)
     """
 [[list]]
-    title = "Linux"
-    image = "https://picsum.photos/400/200"
+    name = "Linux"
     text = """
-x64
+- x64 only
+- not full keyboard support
+- full screen & custom windowed
+
+Know issues:
+- The memory leak is very serious. I tried,
+but can not fix that.
+(Or you can play the game using wine)
+- Tile map black line
     """
 [[list]]
-    title = "Windows"
-    image = "https://picsum.photos/400/200"
+    name = "Windows"
     text = """
-x32
+-x32 only
+- not full keyboard support
+- full screen & custom windowed
+- Tile map black line
     """

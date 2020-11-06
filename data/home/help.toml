@@ -47,7 +47,7 @@ Game Scene:
         - Item 3: N
 
 Gear Panel:
-    SPACE: Open gear panel in game battle
+    SPACE: Open gear panel in battle scene
 
     - Select Gear:  1-9
     - Purchase:     B
@@ -76,7 +76,7 @@ text = """
         - アイテム３:　N
 
 そうびとどうぐ:
-    SPACE:　Open gear panel in game battle
+    SPACE:　Open gear panel in battle scene
 
     - 選ぶ:　1-9
     - かう:　B

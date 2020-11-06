@@ -1,10 +1,21 @@
 [[list]]
-    name = "Multiplayer"
-    icon = "img/online-game.svg"
-    text = """Already in planning
+    name = "Next Month"
+    icon = "img/notice.svg"
+    text = """
+- More maps
+- New ninjas
+- More items
     """
 [[list]]
     name = "Donate Me"
     icon = "img/donate.svg"
     text = """GIVE A LITTLE, HELP A LOT.
+    """
+[[list]]
+    name = "And Now"
+    icon = "img/donate.svg"
+    text = """This project maybe no longer be developed after three months.
+
+Cause I made a new game that implements all features with Unity3D engine.
+(Started 2020.01. For now still in development...)
     """
