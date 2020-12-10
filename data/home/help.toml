@@ -2,28 +2,28 @@
 name = "中文"
 icon = ""
 text = """
-游戏场景:
+<b>游戏场景:</b>
     - 移动: WSAD 或 方向键
-    - 忍术:
+    - <b>忍术:</b>
         - 普通攻击: J
         - 忍术 1: U
         - 忍术 2: I
         - 忍术 3: O
         - 奥义 1: K
         - 奥义 2: H
-    - 物品 & 其他:
+    - <b>物品 & 其他:</b>
         - 拉面: L
         - 物品 1: B
         - 物品 2: M
         - 物品 3: N
 
-装备界面:
+<b>装备界面:</b>
     空格键: 打开装备购买页面
 
     - 选择: 1-9
     - 购买: B
 
-全局快捷键:
+<b>全局快捷键:</b>
     - ESC & ENTER: 关闭当前页面
 """
 
@@ -31,28 +31,28 @@ text = """
 name="ENGLISH"
 icon = ""
 text = """
-Game Scene:
+<b>Game Scene:</b>
     - Movement: WSAD or Arrow keys
-    - Skills:
+    - <b>Skills:</b>
         - Normal Attack: J
         - Skill 1: U
         - Skill 2: I
         - Skill 3: O
         - Ougi  1: K
         - Ougi  2: H
-    - Items & Other:
+    - <b>Items & Other:</b>
         - Ramen: L
         - Item 1: B
         - Item 2: M
         - Item 3: N
 
-Gear Panel:
+<b>Gear Panel:</b>
     SPACE: Open gear panel in battle scene
 
     - Select Gear:  1-9
     - Purchase:     B
 
-Global:
+<b>Global:</b>
     - ESC & ENTER: Close current panel
 """
 
@@ -60,27 +60,27 @@ Global:
 name="日本語"
 icon = ""
 text = """
-バトル:
+<b>バトル:</b>
     - 動き: WSAD　＆　方向キー
-    - 術:
+    - <b>術:</b>
         - 攻　撃:　J
         - 術　１:　U
         - 術　２:　I
         - 術　３:　O
         - 奥義１:　K
         - 奥義２:　H
-    - アイテム　&　アザー:
+    - <b>アイテム　&　アザー:</b>
         - ラーメン　:　L
         - アイテム１:　B
         - アイテム２:　M
         - アイテム３:　N
 
-そうびとどうぐ:
+<b>そうびとどうぐ:</b>
     SPACE:　Open gear panel in battle scene
 
     - 選ぶ:　1-9
     - かう:　B
 
-コンフィグ:
+<b>コンフィグ:</b>
     - ESC & ENTER: Close current panel
 """

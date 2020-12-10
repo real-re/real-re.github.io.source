@@ -7,9 +7,9 @@ text = """Based on NarutoSenki source code.
 - This game symbolizes to fans eyes the most amazing naruto video game
 """
 
-#[[link]]
-    #icon = "fab fa-github"
-    #url = "https://github.com/reaperofblack"
+[[link]]
+    icon = "fab fa-github fa-2x"
+    url = "https://github.com/real-re/NarutoSenki-V2"
 [[link]]
     icon = "fab fa-discord fa-2x"
     url = "https://discord.gg/JGA6P8p"

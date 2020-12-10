@@ -48,7 +48,7 @@
       {{ partial "home_title" (dict "title" "Projects") }}
     </div>
 
-    {{if $data.plan.list}}
+    {{if $data.project.list}}
     <div class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       {{ range $data.project.list }}
       <div class="w-full rounded overflow-hidden shadow-lg">
@@ -67,35 +67,11 @@
     {{end}}
   </section>
 
-  <section id="plan" class="mt-12">
-    <div class="md:flex justify-center">
-      {{ partial "home_title" (dict "title" "Plan") }}
-    </div>
+</br></br>
 
-    {{if $data.plan.list}}
-    <div class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      {{ range $data.plan.list }}
-      <div class="w-full rounded overflow-hidden shadow-lg">
-        <div class="">
-          <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
-            <div class="flex">
-              <img src="{{ .icon }}" width="50px" class="" />
-              <div class="my-auto ml-2">
-                {{ .name }}
-              </div>
-            </div>
-          </div>
-          <p class="text-gray-700 text-base px-6 pb-4">
-            {{ replace .text "\n" "<br />" | safeHTML }}
-          </p>
-        </div>
-      </div>
-      {{end}}
-    </div>
-    {{else}}
-    <div class="mt-4 text-xl text-center">plan don't exist</div>
-    {{end}}
-  </section>
+  <div style="text-align:center;">
+      <a href="https://github.com/real-re/NarutoSenki-V2" class="button button-3d button-primary button-rounded">Download !!!</a>
+  </div>
 
   <section id="help" class="mt-12">
     <div class="md:flex justify-center">
@@ -124,35 +100,6 @@
     </div>
     {{else}}
     <div class="mt-4 text-xl text-center">help don't exist</div>
-    {{end}}
-  </section>
-
-  <section id="changelog" class="mt-12">
-    <div class="md:flex justify-center">
-      {{ partial "home_title" (dict "title" "Changelog") }}
-    </div>
-
-    {{if $data.changelog.list}}
-    <div class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      {{ range $data.changelog.list }}
-      <div class="w-full rounded overflow-hidden shadow-lg">
-        <div class="">
-          <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500">
-            <div class="flex">
-              <div class="my-auto ml-2">
-                {{ .name }}
-              </div>
-            </div>
-          </div>
-          <p class="text-gray-700 text-base px-6 pb-4">
-            {{ replace .text "\n" "<br />" | safeHTML }}
-          </p>
-        </div>
-      </div>
-      {{end}}
-    </div>
-    {{else}}
-    <div class="mt-4 text-xl text-center">changelog don't exist</div>
     {{end}}
   </section>
 </main>

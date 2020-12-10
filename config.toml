@@ -8,25 +8,17 @@ publishDir = "public"
     mainbg = "https://picsum.photos/1920/1080"
     name = "Re"
     mainTitle = "Naruto Senki - V2"
-    mainText = "Android, Linux, Windows" # Mac (In Dev), Raspberry Pi (In dev)
+    mainText = "Android, Linux, Windows"
 [menus]
     [[menu.main]]
         identifier = "projects"
         name = "Projects"
         url = "#projects"
     [[menu.main]]
-        identifier = "plan"
-        name = "Plan"
-        url = "#plan"
-    [[menu.main]]
-        identifier = "changelog"
-        name = "Changelog"
-        url = "#changelog"
-    [[menu.main]]
         identifier = "about"
         name = "About"
         url = "#about"
     [[menu.main]]
-        identifier = ""
-        name = ""
-        url = ""
+        identifier = "help"
+        name = "Help"
+        url = "#help"
