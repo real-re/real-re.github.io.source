@@ -1,18 +1,18 @@
 [[list]]
     title = "Android"
-    image = "https://picsum.photos/400/200"
+    image = "img/text_1.png"
     text = """
 x86
     """
 [[list]]
     title = "Linux"
-    image = "https://picsum.photos/400/200"
+    image = "img/text_2.png"
     text = """
 x64
     """
 [[list]]
     title = "Windows"
-    image = "https://picsum.photos/400/200"
+    image = "img/text_3.png"
     text = """
 x32
     """

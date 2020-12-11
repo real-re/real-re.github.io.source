@@ -4,8 +4,7 @@ title = "Naruto Senki - V2"
 publishDir = "public"
 
 [params]
-    avatar = "img/avatar.svg"
-    mainbg = "https://picsum.photos/1920/1080"
+    favicon = "img/favicon.png"
     name = "Re"
     mainTitle = "Naruto Senki - V2"
     mainText = "Android, Linux, Windows"
